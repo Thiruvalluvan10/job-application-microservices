@@ -3,6 +3,7 @@ package com.thiru.companyms.company.impl;
 import com.thiru.companyms.company.Company;
 import com.thiru.companyms.company.CompanyRepository;
 import com.thiru.companyms.company.CompanyService;
+import com.thiru.companyms.dto.ReviewMessage;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -65,6 +66,11 @@ public class CompanyServiceImpl implements CompanyService {
 	public Company getCompanyById(Long id) {
 		
 		return companyRepository.findById(id).orElse(null);
+	}
+
+	@Override
+	public void updateCompanyRating(ReviewMessage reviewMessage) {
+
 	}
 
 }
