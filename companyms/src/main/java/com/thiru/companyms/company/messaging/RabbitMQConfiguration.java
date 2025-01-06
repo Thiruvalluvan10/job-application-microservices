@@ -1,4 +1,4 @@
-package com.thiru.companyms.messaging;
+package com.thiru.companyms.company.messaging;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

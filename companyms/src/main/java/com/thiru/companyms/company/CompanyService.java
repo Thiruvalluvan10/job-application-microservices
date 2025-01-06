@@ -1,6 +1,6 @@
 package com.thiru.companyms.company;
 
-import com.thiru.companyms.dto.ReviewMessage;
+import com.thiru.companyms.company.dto.ReviewMessage;
 
 import java.util.List;
 

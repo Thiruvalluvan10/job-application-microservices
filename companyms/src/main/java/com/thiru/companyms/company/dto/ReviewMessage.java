@@ -1,4 +1,4 @@
-package com.thiru.companyms.dto;
+package com.thiru.companyms.company.dto;
 
 public class ReviewMessage {
 

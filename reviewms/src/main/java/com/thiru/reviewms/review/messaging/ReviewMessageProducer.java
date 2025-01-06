@@ -4,7 +4,9 @@ package com.thiru.reviewms.review.messaging;
 import com.thiru.reviewms.review.Review;
 import com.thiru.reviewms.review.dto.ReviewMessage;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ReviewMessageProducer {
 
     private final RabbitTemplate rabbitTemplate;
